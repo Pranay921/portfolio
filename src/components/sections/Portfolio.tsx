@@ -34,6 +34,22 @@ export const Portfolio: React.FC = () => {
     },
     {
       id: 2,
+      title: 'Tars Chat App',
+      shortDescription: 'TARS Chat App is a platform that allows people to communicate and stay connected in real time. Users can interact with friends or groups, share messages, and engage in conversations easily through a simple and secure chat environment.',
+      fullDescription: 'TARS Chat App is a modern real-time communication platform designed to help users connect and interact easily. The application allows users to send messages, react to texts with emojis, and communicate in both private and group chats. Users can create groups to have conversations with multiple people at the same time. To maintain privacy and security, the platform includes a friend request system that allows users to control who can connect with them. The app integrates Clerk for secure authentication and user management. For handling real-time data and storing messages efficiently, it uses Convex as the database. The combination of these technologies ensures a smooth, secure, and responsive chat experience. Overall, TARS Chat App provides an interactive environment where users can communicate, collaborate, and stay connected.',
+      image: "./images/projects/tars-chat.png",
+      tech: ["Node.js", "Express", "React", "Redis", "MongoDB", "Razorpay", "JWT", "CAPTCHA"],
+      categories: ["Personnel"],
+      type: "Web",
+      duration: "Jan' 2026 - Feb' 2026",
+      team: "Solo Project",
+      challenges: ["Clerk Authentication Integration", "Handling and manipulating data using Convex", "Multi-layered security framework"],
+      results: ["45-60% API latency reduction", "50% database overhead reduction", "95% bot attack neutralization"],
+      demoUrl: "https://tars-chat-ecru.vercel.app/",
+      githubUrl: "https://github.com/Pranay921/tars-chat"
+    },
+    {
+      id: 3,
       title: 'Medical Support System',
       shortDescription: 'A centralized healthcare portal with appointment scheduling, emergency bookings, voice AI assistant, and geolocation-based medical services.',
       fullDescription: 'Medical Support System is a comprehensive healthcare portal that consolidates appointment scheduling and emergency bookings into a unified interface, significantly reducing the friction of accessing critical medical services. The platform features an accessibility-driven voice AI assistant using JavaScript Speech API, resulting in a 40% improvement in navigation efficiency and enabling seamless hands-free user interaction. It optimizes emergency response workflows by deploying a one-tap ambulance request module and a geolocation-based medical store locator to provide rapid assistance during critical health situations.',
@@ -49,7 +65,7 @@ export const Portfolio: React.FC = () => {
       githubUrl: "https://github.com/Pranay921/MediBot"
     },
     {
-      id: 3,
+      id: 4,
       title: 'Group Chat App',
       shortDescription: 'A full-stack communication hub supporting instant group conversations, peer collaboration, and secure document exchange.',
       fullDescription: 'Group Chat App is a comprehensive full-stack communication platform that supports instant group conversations and peer collaboration. The application features a protected document-exchange module for smooth sharing of PDFs, notes, and presentations inside the chat space. It implements a reliable login system with session persistence using PHP-MySQL for controlled and consistent user access, ensuring secure and seamless communication across teams.',
